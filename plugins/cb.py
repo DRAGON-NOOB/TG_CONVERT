@@ -3,7 +3,7 @@ import pyrogram
 
 @pyrogram.Client.on_callback_query()
 async def button(bot, update):
-if "start" in cb_data:
+    if "start" in cb_data:
         await update.message.delete()
         await start_user(bot, update.message)
     elif "help_btn" in cb_data:
