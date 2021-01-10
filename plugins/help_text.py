@@ -73,6 +73,11 @@ async def get_me_info(bot, update):
 async def start(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
+    buttons = [[
+        InlineKeyboardButton('Help', callback_data='start'),
+        InlineKeyboardButton('Close', callback_data='upgrade_btn')
+    ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
