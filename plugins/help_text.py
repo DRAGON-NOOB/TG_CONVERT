@@ -74,8 +74,8 @@ async def start(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
     buttons = [[
-        InlineKeyboardButton('Help', callback_data='start'),
-        InlineKeyboardButton('Close', callback_data='upgrade_btn')
+        InlineKeyboardButton('Help', callback_data='help_btn'),
+        InlineKeyboardButton('Close', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await bot.send_message(
