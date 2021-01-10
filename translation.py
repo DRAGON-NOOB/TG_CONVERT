@@ -1,7 +1,7 @@
 class Translation(object):
-    START_TEXT = """🚴Hello,
+    START_TEXT = """🚴Hello {first},
 This is a Telegram File convert Bot!
-You can convert any Telegram Document, using this 🤖bot! With custom thumbnail
+You can convert any Telegram Document, using this 🤖bot! With custom thumbnail /help
      
     """
     ABS_TEXT = " Please don't be selfish."
@@ -25,7 +25,7 @@ Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.meTG_BotZ/125'>{}</a>
 Expires on: {}"""
     HELP_USER = """I can do:
-👉 <a href="https://telegram.dog/FileConvertRobot">Convert To Streamable video any telegram file</a>
+👉 <a href="https://telegram.dog/FileConverterV2TGBot">Convert To Streamable video any telegram file</a>
 --------
 
 🔥 How to deploy : <a href='https://t.me/joinchat/WD5C6OsRDjHIW-zR'>Click here</a>
@@ -33,6 +33,29 @@ Expires on: {}"""
     © Group   : @TGB_Support
     © Channel : @TG_BotZ 
     © credits : @rosebakthan
+    Hei Follow These Steps
+
+1. Send A Telegram Media To Convert
+2. Send Custom Thumbnail
+3. Replay to a Telegram Media /converttovideo Or /converttofile
+
+Features
+
+  >>> 
+Convert any Telegram Document to Streaming Video
+  >>> 
+Convert any Streaming Video to Telegram Document
+  >>> 
+Custom thumbnail Support
+
+Available Commands
+
+/converttovideo -
+Use This Command To Get Streamable Video
+/converttofile -
+Use this Command To Get Document File
+/deletethumbnail -
+Delete Your Saved Thumbnail
 
 Send /me to know current plan details
 
