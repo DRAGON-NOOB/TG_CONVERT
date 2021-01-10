@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """🚴Hello {first},
+    START_TEXT = """🚴Hello {},
 This is a Telegram File convert Bot!
 You can convert any Telegram Document, using this 🤖bot! With custom thumbnail /help
      
@@ -24,7 +24,7 @@ You can convert any Telegram Document, using this 🤖bot! With custom thumbnail
 Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.meTG_BotZ/125'>{}</a>
 Expires on: {}"""
-    HELP_USER = """I can do:
+    HELP_USER = """ITz Me 💡:
 👉 <a href="https://telegram.dog/FileConverterV2TGBot">Convert To Streamable video any telegram file</a>
 --------
 
