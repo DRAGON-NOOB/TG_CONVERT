@@ -58,6 +58,11 @@ Use this Command To Get Document File
 Delete Your Saved Thumbnail
 
 Send /me to know current plan details
+keyboard = [[InlineKeyboardButton(text="💻Support Group", url="https://t.me/TGB_Support"),
+                InlineKeyboardButton(text="🔧Updates", url="https://t.me/TG_BotZ")]]
+            keyboard += [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_"), 
+                InlineKeyboardButton(text="❓Help", callback_data="help_back")]]
+            keyboard += [[InlineKeyboardButton(text="🔌 Add me",url="http://t.me/Queen_isabellabot?startgroup=true")]
 
 """
 
